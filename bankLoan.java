@@ -33,7 +33,7 @@ class bankLoan {
         loanbank.add(years);
 
         switch(chooseL){
-            case 20000:  case 1:
+            case 20000:  
             System.out.println("You chose, " + chooseL);
             break;
 
