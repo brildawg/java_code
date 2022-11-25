@@ -16,7 +16,7 @@ public class students {
 	}
 	void introduce() {
 		System.out.println("Full name :" + firstname + ", " + lastname);
-		System.out.println("Course:" + course  + " Year: " + year + " Section: " + section);
+		System.out.println("Course:" + course  + "\nYear: " + year + "\nSection: " + section);
 		
 	}
 }
