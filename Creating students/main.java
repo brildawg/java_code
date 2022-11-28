@@ -25,7 +25,7 @@ public class main {
 			System.out.print("lastname : ");
 			lastname=s.nextLine();
 			System.out.print("Enter Course  : ");
-			course= s.nextLine();
+			course= s.nextLine(); 
 			System.out.print("Enter year    : ");
 			year=s.nextInt();
 			s.nextLine();
@@ -34,10 +34,10 @@ public class main {
 			System.out.println();
 			
 			
-			students[i] = new Student(firstname,lastname,course,year, section);
+			students[i] = new students(firstname,lastname,course,year, section);
 			
 		}
-		for(Student st : students) {
+		for(students st : students) {
 			st.introduce();
 			System.out.println();
 		}
